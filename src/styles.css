@@ -1,0 +1,237 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    background-color: #22b2d6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+
+
+}
+
+/* Weather App Container */
+.weather-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:
+        url('./assets/2203_w026_n002_1515b_p1_1515.jpg');
+  
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+}
+
+/* Header Styling */
+.header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(rgba(94, 215, 252, 0.082), rgba(121, 222, 253, 0.096));
+    /* Replace 'your-background-image.jpg' with your image URL */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+/* App Title */
+.app-title {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Input Container Styling */
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777;
+}
+
+input::placeholder {
+    font-weight: 500;
+}
+
+button {
+    background-color: #50a2ff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #663cfd;
+}
+
+/* Weather Info Styling */
+.weather-info {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+    background: linear-gradient(rgba(106, 158, 255, 0.199), rgba(85, 139, 255, 0.247));
+    /* Replace 'your-background-image.jpg' with your image URL */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.11);
+}
+
+/* Location Styling */
+.location {
+    display: flex;
+    font-size: 18px;
+
+
+    /* Add this property to align it at the top */
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+
+
+
+
+    background: linear-gradient(rgba(253, 253, 253, 0.11), rgba(206, 206, 206, 0.096));
+    /* Replace 'your-background-image.jpg' with your image URL */
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+
+
+}
+
+
+
+/* Loading Message Styling */
+.loading-message {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rest {
+    background: linear-gradient(rgba(253, 253, 253, 0.233), rgba(206, 206, 206, 0.192));
+    /* Replace 'your-background-image.jpg' with your image URL */
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 5px;
+
+}
+
+
+/* Temperature Styling */
+.temperature {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.temperature-f {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.temp-icon {
+    margin-bottom: 5px;
+}
+
+.wind-container {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+.wind-speed-icon {
+    color: white;
+    font-size: 25px;
+    margin-left: 5px !important;
+    margin-top: 2px;
+}
+
+
+
+.humidity-container {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+.pressure-container {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-left: 5px !important;
+    color: white;
+}
+
+.feels-like-container {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+.condition-container {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+.condition-icon {
+
+    margin-top: 2px;
+}
+
+.humidity-icon {
+    margin-left: 3px;
+}
+
+.feels-like-icon{
+    margin-top: 2px;
+}
