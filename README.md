@@ -1,4 +1,4 @@
-# Weather App README
+# Lightweight Weather App 
 This repository contains a simple Weather App built using React. Users can search for weather information for a specific location and view details such as temperature, humidity, wind speed, and more. The app uses the OpenWeatherMap API to fetch weather data.
 
 ## Usage
